@@ -4,7 +4,8 @@
   "description": "Practice project: Playwright + TypeScript UI tests with Page Object Model (saucedemo.com)",
   "scripts": {
     "test": "playwright test",
-    "report": "playwright show-report"
+    "report": "playwright show-report",
+    "test:api": "playwright test tests/api"
   },
   "keywords": [],
   "author": "",
